@@ -32,7 +32,7 @@ void binarysearch(const int *arr,int n,int key)
     printf("*********[SEARCH RESULT]*********\n");
     while(l<=r)
     {
-		mid=l+(r-l)/2;
+	mid=l+(r-l)/2;
         if(key==arr[mid])
         {
             printf("Found %d at index %d\n\n",key,mid);
